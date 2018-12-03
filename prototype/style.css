@@ -1,11 +1,105 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+	font-size:22px;
+	line-height: 32px;
+	color: #ffffff;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+  text-align:center;
+	}
+a {
+	color: #FFF;
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
-image: 100%;}
+#container {
+	margin: 0 auto;
+}
+.home-nav {
+  background: url(http://nassau.happeningmag.com/wp-content/uploads/2013/02/Seasons-52-Piano-Wine-Bar.jpg);
+}
+
+.winepage {
+  background: url(https://i.postimg.cc/C1q0DvZV/cheers.jpg);
+}
+.menu{
+  background: url(https://i.postimg.cc/h4y4wBx1/cheeseplate.jpg);
+}
+nav {
+	background-color: #660033;
+  width:100%;
+  background-size:cover;
+  background-position:center;
+padding: 2em 0 20em 0;
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+  background-color: #660033;
+	}
+
+nav ul li {
+	display:inline-block;
+	background-color: #660033;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover {
+	background-color: #000000;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/*footer*/
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.hero-image {
+position: relative;
+overflow: hidden;
+height: 400px;
+}
+
+	.hero-image:after {
+  	position: absolute;
+    overflow: hidden;
+  	width: 100%;
+  	background-color: rgba(0,0,0,.5);
+  	top: 0;
+  	left: 0;
+  	display: block;
+		content: "";
+}

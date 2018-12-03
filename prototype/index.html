@@ -6,27 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Page Title Goes Here</title>
     <meta name="description" content="Page Description Goes Here">
+    <link rel="stylesheet" href="prototype/style.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+<link rel="stylesheet" href="owl.theme.default.min.css">
+<style type="text/css">
+  .wrapper{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+  }
+    </style>
   </head>
+  <div id="container">
+    <nav class="home-nav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">OUR WINE</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+                <li><a href="#">RED WINE</a></li>
+                <li><a href="#">WHITE WINE</a></li>
+                <li><a href="#">DESSERT WINE</a></li>
+            </ul>
+            </li>
+            <li><a href="#">MENU</a>
+            </li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">PRIVATE EVENT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+        </ul>
+    </nav>
   <body>
        <!-- The page content goes here -->
-<header>
-  <img src="image/winebar.jpg"/>
-</header>
-<nav>
-  <ul>
-    <li>Home </li>
-    <li><a href="firstpage.html"> Our Wines<a/> </li>
-      <li> Contact </li>
-      <li> Menu </li>
-      <li> Tasting EVents </li>
-    </ul>
-    </nav>
        <h1>Home Page</h1>
 
        <main>
+         <div class="clearfix">
+           <section class="one">
+             <img src="https://images.unsplash.com/photo-1534949363881-08e816c98368?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cb082f254142b18a3cf931077ec7c343&auto=format&fit=crop&w=3150&q=80"></img>
+           </section>
+           <section class="two">
+             <h3>EXPERIENCE</h3></br>
+             <p>Off the Vine is a boutique winery featuring handcrafted, award-winning wines served in an old world setting. Stop by and spend a little time in our cozy cantina! Try our wonderful food items, paired with your favorite Off the Vine wine and enjoy our inviting atmosphere. Ask any of our wine servers about the wines, upcoming events, or new wine releases. We will be waiting to assist you and make your visit to Off the Vine special.</p>
+           </section>
+         </div>
+         <!-- Wine Carousel -->
+         <div class="wrapper">
+           <div class="owl-carousel owl-theme">
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+           <div class="item"> <img src="image/pinotnoir.jpg"></div>
+         </div>
+         </div>
+         <!---->
          This is the main content </main>
+
+
+
          <footer>
-           This is footer </footer>
-      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
-  </body>
+           This is footer
+      <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="index.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+
+    <script src="jquery-3.3.1.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="jquery.js"> </script>
+    <div class="hero-image">
+	<img src="image/corks.jpg" alt="test image" /></div>
+</footer>
+</body>
 </html>

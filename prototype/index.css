@@ -1,0 +1,29 @@
+
+
+.clearfix {
+  overflow: hidden;
+}
+
+section {
+  width: 40%;
+  min-height: 200px;
+  text-align: center;
+  float: left;
+}
+
+.one img {
+  width: 100%;
+  margin: 0 auto;
+overflow: hidden;
+}
+.two {
+  text-align: left;
+  font-size: 14px;
+  padding-top: 4em;
+  padding-left: 2em;
+  color: black;
+  display; flex;
+}
+body{
+  margin:0;
+}

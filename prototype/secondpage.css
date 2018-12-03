@@ -1,0 +1,52 @@
+main, h1 {
+  color: black;
+  text-align: left;
+}
+body {
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.clear {
+  clear: both;
+}
+
+@media (min-width: 600px)  {
+  .container {
+    width: 96%;
+    margin: 0 2%;
+  }
+  .col4 {
+    clear: both;
+    padding: 20px 0;
+    border-top: 1px solid #CCC;
+    &:after {
+      content: "";
+      clear: both;
+      width: 100%;
+    }
+  }
+  .image {
+    float: left;
+    width: 40%;
+  }
+  .copy {
+    float: right;
+    width: 56%;
+  }
+}
+@media (max-width: 599px) {
+  .container {
+    width: 96%;
+    margin: 0 2%;
+  }
+  .col4 {
+    padding: 10px 0;
+    border-top: 1px solid #CCC;
+  }
+  .image, .copy {
+    text-align: center;
+  }
+}
