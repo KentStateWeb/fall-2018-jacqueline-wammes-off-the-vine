@@ -43,6 +43,13 @@ h5{
 	font-weight: bold;
 	font-size: 14px;
 }
+h6{
+	font-family: 'Playfair Display', serif;
+border-top: .5px solid;
+margin-top: 2px;
+padding-top: 2px;
+	font-size: 24px;
+}
 
 p{
 	font-family: 'Open Sans', sans-serif;
