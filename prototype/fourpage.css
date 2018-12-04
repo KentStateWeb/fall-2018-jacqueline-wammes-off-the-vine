@@ -3,20 +3,8 @@ body {
   text-align:center;
   font-family: Helvetica,Arial,sans-serif;
 }
-h1 {
-  font-size:32px;
-  font-weight:100;
-  margin-bottom:16px;
-  margin:20px 0 40px;
-}
-h2 {
-  font-size:14px;
-  font-weight:100;
-  margin-bottom:8px;
-  margin-top:5px;
-}
-h3 { font-size:21px; }
-.container {
+
+.calendar {
   max-width:900px;
   margin:0 auto;
   text-align:left;
@@ -47,8 +35,8 @@ h3 { font-size:21px; }
 .monthYear { margin:0px 0 10px 0; padding:0 0 0 8px;}
 .monthYear span { display:none; }
 .days li {
-  color:#333;
-  border-bottom:1px solid #ccc;
+  color: black;
+  border-bottom:1px solid black;
   padding:4px 4px 4px 8px;
   text-transform:uppercase;
   font-size:13px;
@@ -60,7 +48,7 @@ h3 { font-size:21px; }
   box-sizing:border-box;
 }
 .dates {
-  border-right:1px solid #ccc;
+  border-right:1px solid black;
 }
 .dates:after, .days:after {
   content:'';
@@ -68,7 +56,7 @@ h3 { font-size:21px; }
   clear:both;
 }
 .dates li {
-  border:1px solid #ccc;
+  border:1px solid black;
   border-width:0 0 1px 1px;
   height:90px;
   margin:0;
@@ -87,11 +75,11 @@ h3 { font-size:21px; }
   z-index:10;
   padding-bottom:25px;
   background:#fff;
-  border-bottom:1px solid #ccc;
+  border-bottom:1px solid black;
   box-shadow:0 0 10px #333;
 }
 .dates li.fade {
-  color:#ccc;
+  color: black;
   opacity:0.6;
 }
 .date, .dates li a {
@@ -104,7 +92,7 @@ h3 { font-size:21px; }
   text-align:left;
   text-decoration:none;
   font-size: 12px;
-  color:#fff;
+  color: white;
   border-radius:2px;
 }
 .dates li a, .dates li div {
@@ -134,7 +122,7 @@ h3 { font-size:21px; }
 }
 .dates li a.expand.open span {
 	transform: rotate(45deg);
-  color:#333;
+  color: white;
 }
 
 .dates li a b {
@@ -157,10 +145,10 @@ h3 { font-size:21px; }
 .multidayEvent span, .holiday span  { display:none;}
 .dates li a.length-2 {width:196%; display:block; }
 .dates li a.length-3 {width:301%; display:block;}
-.tradeShow, .tradeShow:before { background:#e86542; color:#fff;}
-.meeting, .meeting:before { background:#0359a6; color:#fff;}
-.holiday, .holiday:before { background:#5fa8aa; color:#fff;}
-.birthday, .birthday:before { background:#f8a805; color:#fff;}
+.tradeShow, .tradeShow:before { background:#af4a52; color:#fff;}
+.meeting, .meeting:before { background:#572339; color:#fff;}
+.holiday, .holiday:before { background:#15181d; color:#fff;}
+.birthday, .birthday:before { background:#b88c71; color:#fff;}
 .calendarNav {
   display:none;
 }

@@ -1,7 +1,8 @@
-main, h1 {
+main {
   color: black;
   text-align: left;
 }
+
 body {
   font-family: sans-serif;
 }
@@ -20,7 +21,6 @@ img {
   }
   .col4 {
     clear: both;
-    padding: 20px 0;
     border-top: 1px solid #CCC;
     &:after {
       content: "";

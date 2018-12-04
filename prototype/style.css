@@ -9,9 +9,44 @@ body {
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
   text-align:center;
+	margin: 0;
 	}
 a {
 	color: #FFF;
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 48px;
+	padding:1em;
+	text-align: center;
+	color: black;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+border-top: .5px solid;
+margin-top: 2px;
+padding-top: 2px;
+	font-size: 24px;
+
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
 
 #container {
@@ -19,14 +54,41 @@ a {
 }
 .home-nav {
   background: url(http://nassau.happeningmag.com/wp-content/uploads/2013/02/Seasons-52-Piano-Wine-Bar.jpg);
+	background-size: cover;
+background-position: right;
+width: 100%;
+height: 600px;
 }
 
 .winepage {
   background: url(https://i.postimg.cc/C1q0DvZV/cheers.jpg);
+	background-size: cover;
+background-position: right;
+width: 100%;
+height: 600px;
 }
 .menu{
   background: url(https://i.postimg.cc/h4y4wBx1/cheeseplate.jpg);
+	background-size: cover;
+background-position: right;
+width: 100%;
+height: 116px;
 }
+.lodging{
+	background: url(https://i.postimg.cc/13B6MfbS/i-Stock-000007460440-Medium.jpg);
+	background-size: cover;
+background-position: top;
+width: 100%;
+height: 600px;
+}
+.events{
+	background: url(https://i.postimg.cc/TPRvzqfK/events.jpg);
+	background-size: cover;
+background-position: bottom;
+width: 100%;
+height: 116px;
+}
+
 nav {
 	background-color: #660033;
   width:100%;
@@ -34,7 +96,6 @@ nav {
   background-position:center;
 padding: 2em 0 20em 0;
 }
-
 nav ul {
 	padding: 0;
   margin: 0;
