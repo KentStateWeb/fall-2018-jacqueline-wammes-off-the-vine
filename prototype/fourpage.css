@@ -152,15 +152,19 @@ body {
   padding:4px 4px 4px 8px;
   text-transform:uppercase;
   font-size:13px;
+  text-align:center;
+  background-color: white;
 }
 .days li, .dates li {
   float:left;
   width:14.28%;
   position:relative;
   box-sizing:border-box;
+  list-style-type: none;
 }
 .dates {
   border-right:1px solid black;
+  list-style-type: none;
 }
 .dates:after, .days:after {
   content:'';

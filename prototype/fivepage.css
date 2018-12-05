@@ -97,6 +97,9 @@ a {
 Main Components
 
 -------------------------------- */
+ol {
+  list-style-type: none;
+}
 .cd-horizontal-timeline {
   opacity: 0;
   margin: 2em auto;
@@ -264,6 +267,7 @@ Main Components
   -webkit-transition: border-color 0.3s;
   -moz-transition: border-color 0.3s;
   transition: border-color 0.3s;
+
 }
 .cd-timeline-navigation a::after {
   /* arrow icon */
@@ -305,7 +309,9 @@ Main Components
 .no-touch .cd-timeline-navigation a.inactive:hover {
   border-color: #dfdfdf;
 }
-
+.cd-timeline-navigation{
+  list-style-type: none;
+}
 .cd-horizontal-timeline .events-content {
   position: relative;
   width: 100%;
