@@ -2,14 +2,14 @@ main {
   color: black;
   text-align: left;
 }
-
-body {
-  font-family: sans-serif;
-}
 img {
   max-width: 100%;
   height: auto;
 }
+.logo {
+    max-width: 100%;
+    height: auto;
+    border: none;}
 .clear {
   clear: both;
 }

@@ -23,7 +23,6 @@ body {
 	margin: 0;
 	background-color: white;
 	line-height: 1.5;
-	font-family: Helvectica, Arial, sans-serif;
 	color: black;
 }
 
@@ -193,6 +192,7 @@ img {
 	padding-left: 10px;
 	margin-right: auto;
 	margin-left: auto;
+	z-index: 999;
 }
 
 /* title */
@@ -232,7 +232,7 @@ img {
 
 .product-item:hover .product-item-inner {
 	position: absolute;
-	z-index: 2;
+	z-index: 999;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
 	background-color: white;
 }

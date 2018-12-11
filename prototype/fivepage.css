@@ -1,13 +1,16 @@
 h1 {
   font-family:"Playfair Display";
   text-align: center;
-  padding-top: 2em;
   padding bottom: -2em;
   font-size: 3em;
 }
 img{
   height:100%;
 }
+.logo {
+    max-width: 100%;
+    height: auto;
+    border: none;}
 .features {
 	padding: 0 20px;
 	color: #373737;
@@ -71,7 +74,7 @@ img{
 	}
 }
 
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -82,7 +85,6 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
   color: #383838;
   background-color: #f8f8f8;
 }

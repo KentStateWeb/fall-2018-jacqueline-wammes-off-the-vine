@@ -1,49 +1,5 @@
 
-body {
-	color: black;
-	font-family: 'Open Sans', sans-serif;
-  text-align:center;
-	margin: 0;
-  text-decoration:none;
-	}
 
-a {
-	color: #FFF;
-}
-h1{
-	font-family: 'Playfair Display', serif;
-	font-size: 48px;
-	padding:1em;
-	text-align: center;
-	color: black;
-}
-h2{
-	font-family: 'Playfair Display', serif;
-border-top: .5px solid;
-margin-top: 2px;
-padding-top: 2px;
-	font-size: 24px;
-
-}
-h3{
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	font-size: 20px;
-}
-h4{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-}
-h5{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 14px;
-}
-
-p{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-}
 
 #container {
 	margin: 0 auto;
@@ -53,68 +9,9 @@ p{
 	background-size: cover;
 background-position: bottom;
 width: 100%;
-height: 116px;
+height: 600px;
 }
 
-nav {
-	background-color: #660033;
-  width:100%;
-  background-size:cover;
-  background-position:center;
-padding: 2em 0 20em 0;
-}
-nav ul {
-	padding: 0;
-  margin: 0;
-	list-style: none;
-	position: relative;
-  background-color: #660033;
-	}
-
-nav ul li {
-	display:inline-block;
-	background-color: #660033;
-  text-decoration:none;
-	}
-
-nav a {
-	display:block;
-	padding:0 10px;
-	color:#FFF;
-	font-size:20px;
-	line-height: 60px;
-	text-decoration:none;
-}
-
-nav a:hover {
-	background-color: #000000;
-}
-
-/* Hide Dropdowns by Default */
-nav ul ul {
-	display: none;
-	position: absolute;
-	top: 60px; /* the height of the main nav */
-}
-
-/* Display Dropdowns on Hover */
-nav ul li:hover > ul {
-	display:inherit;
-}
-
-/* Fisrt Tier Dropdown */
-nav ul ul li {
-	width:170px;
-	float:none;
-	display:list-item;
-	position: relative;
-}
-
-body {
-  background:#ebebeb;
-  text-align:center;
-  font-family: Helvetica,Arial,sans-serif;
-}
 
 .calendar {
   max-width:900px;
