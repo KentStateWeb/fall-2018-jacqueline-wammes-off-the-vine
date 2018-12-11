@@ -1,0 +1,365 @@
+.container {
+  margin: 0px auto;
+  text-align: center;
+}
+.container .button-effect {
+  padding: 30px 0px;
+}
+.container a {
+  margin-right: 17px;
+}
+
+/* button styles !!!YOU NEED THEM
+!!!ALSO YOU NEED TO ADD FONTWESOME */
+.effect {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  color: #B04A52;
+  background-color: white;
+  border-radius: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  padding: 15px 0px;
+  width: 190px;
+  height: 20px;
+  border: 2px solid #B04A52;
+  overflow: hidden;
+}
+
+/* effect-1 styles */
+.effect.effect-1 {
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-1:before {
+  content: "+";
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  width: 40px;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-1:hover {
+  text-indent: -20px;
+  background: #B04A52;
+  color: white;
+}
+.effect.effect-1:hover:before {
+  opacity: 1;
+  text-indent: 0px;
+}
+
+.style-guide {
+  text-align: center;
+}
+.style-guide h1:after {
+  content: "Off the Vine Style Sheet";
+  display: block;
+}
+
+.style-guide p:after {
+  content: "Off the Vine's most common patterns for the website";
+  text-align: center;
+}
+
+.style-guide-content {
+  width: 90%;
+  margin: 20px auto;
+}
+.color-palletes {
+  display: flex;
+}
+
+.color {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+h1{
+	font-family: 'Playfair Display';
+	font-size: 48px;
+  font-weight: 400;
+	padding:1em;
+	color: black;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+border-top: .5px solid;
+font-weight: 400;
+margin-top: 2px;
+padding-top: 2px;
+	font-size: 24px;
+
+}
+h3{
+	font-family: 'Playfair Display', serif;
+margin-top: 2px;
+font-weight: 400;
+padding-top: 2px;
+	font-size: 24px;
+}
+h4{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+  font-weight: 500;
+	font-size: 20px;
+}
+h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+  font-weight: 500;
+}
+h6{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+  font-weight: 400;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.primary {
+  background: #EDEEEF;
+  width: 20%;
+  height: 120px;
+}
+.primary p {
+  margin: 0;
+  height: 35px;
+  text-align: center;
+  position: relative;
+}
+.primary p:after {
+  display: none;
+}
+.primary .lighten {
+  background: #FFFFFF;
+  position: relative;
+  top: 80px;
+}
+.primary .lighten:after {
+  content: "#FFFFFF";
+  position: relative;
+  top: 7px;
+}
+.primary .darken {
+  background: #C7C8CA;
+  position: relative;
+  top: 80px;
+}
+.primary .darken:after {
+  content: "#C7C8CA";
+  position: relative;
+  top: 8px;
+}
+.primary .main-color:after {
+  position: relative;
+  top: 40px;
+  content: "#C7C8CA";
+}
+.primary:hover p:after {
+  visibility: visible;
+  display: block;
+}
+
+.secondary {
+  background: #B88D72;
+  width: 20%;
+  height: 120px;
+}
+.secondary p {
+  margin: 0;
+  height: 35px;
+  text-align: center;
+  position: relative;
+}
+.secondary p:after {
+  display: none;
+}
+.secondary .lighten {
+  background: #D0B4A0;
+  position: relative;
+  top: 80px;
+}
+.secondary .lighten:after {
+  content: "#D0B4A0";
+  position: relative;
+  top: 7px;
+}
+.secondary .darken {
+  background: #9D8371;
+  position: relative;
+  top: 80px;
+}
+.secondary .darken:after {
+  content: "#9D8371";
+  position: relative;
+  top: 8px;
+}
+.secondary .main-color:after {
+  position: relative;
+  top: 40px;
+  content: "#B88D72";
+}
+.secondary:hover p:after {
+  visibility: visible;
+  display: block;
+}
+
+.tertiary {
+  background: #B04A52;
+  width: 20%;
+  height: 120px;
+}
+.tertiary p {
+  margin: 0;
+  height: 35px;
+  text-align: center;
+  position: relative;
+}
+.tertiary p:after {
+  display: none;
+}
+.tertiary .lighten {
+  background: #CA8985;
+  position: relative;
+  top: 80px;
+}
+.tertiary .lighten:after {
+  content: "#CA8985";
+  position: relative;
+  top: 7px;
+}
+.tertiary .darken {
+  background: #965957;
+  position: relative;
+  top: 80px;
+}
+.tertiary .darken:after {
+  content: "#965957";
+  position: relative;
+  top: 8px;
+}
+.tertiary .main-color:after {
+  position: relative;
+  top: 40px;
+  content: "#B04A52";
+}
+.tertiary:hover p:after {
+  visibility: visible;
+  display: block;
+}
+
+.quatary {
+  background: #582439;
+  width: 20%;
+  height: 120px;
+}
+.quatary p {
+  margin: 0;
+  height: 35px;
+  text-align: center;
+  position: relative;
+}
+.quatary p:after {
+  display: none;
+}
+.quatary .lighten {
+  background: #8B6670;
+  position: relative;
+  top: 80px;
+}
+.quatary .lighten:after {
+  content: "#8B6670";
+  position: relative;
+  top: 7px;
+}
+.quatary .darken {
+  background: #54333D;
+  position: relative;
+  top: 80px;
+}
+.quatary .darken:after {
+  content: "#54333D";
+  position: relative;
+  top: 8px;
+}
+.quatary .main-color:after {
+  position: relative;
+  top: 40px;
+  content: "#582439";
+}
+.quatary:hover p:after {
+  visibility: visible;
+  display: block;
+}
+
+.senary {
+  background: #14171B;
+  width: 20%;
+  height: 120px;
+}
+.senary p {
+  margin: 0;
+  height: 35px;
+  text-align: center;
+  position: relative;
+}
+.senary p:after {
+  display: none;
+}
+.senary .lighten {
+  background: #373739;
+  position: relative;
+  top: 80px;
+}
+.senary .lighten:after {
+  content: "#373739";
+  position: relative;
+  top: 7px;
+}
+.senary .darken {
+  background: #231F20;
+  position: relative;
+  top: 80px;
+}
+.senary .darken:after {
+  content: "#231F20";
+  position: relative;
+  top: 8px;
+}
+.senary .main-color:after {
+  position: relative;
+  top: 40px;
+  content: "#14171B";
+}
+.senary:hover p:after {
+  visibility: visible;
+  display: block;
+}
+
+.logo-1 {
+  height: 50%;
+  width: 50%;
+  display: block;
+}
+.typography small {
+  font-size: 75%;
+}

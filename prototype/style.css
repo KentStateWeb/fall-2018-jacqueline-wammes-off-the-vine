@@ -1,61 +1,51 @@
 
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-body {
-	font-size:22px;
-	line-height: 32px;
-	color: #ffffff;
-	word-wrap:break-word !important;
-	font-family: 'Open Sans', sans-serif;
-  text-align:center;
-	margin: 0;
-	}
-a {
-	color: #FFF;
-}
 h1{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display';
 	font-size: 48px;
-	padding:1em;
-	text-align: center;
+  font-weight: 400;
 	color: black;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+	text-align: center;
 }
 h2{
 	font-family: 'Playfair Display', serif;
 border-top: .5px solid;
+font-weight: 400;
 margin-top: 2px;
 padding-top: 2px;
 	font-size: 24px;
 
 }
 h3{
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	font-size: 20px;
-}
-h4{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-}
-h5{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 14px;
-}
-h6{
 	font-family: 'Playfair Display', serif;
-border-top: .5px solid;
 margin-top: 2px;
+font-weight: 400;
 padding-top: 2px;
 	font-size: 24px;
 }
-
-p{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+h4{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+  font-weight: 500;
+	font-size: 20px;
+}
+h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+  font-weight: 500;
+}
+h6{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+  font-weight: 400;
 }
 
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
 #container {
 	margin: 0 auto;
 }
@@ -150,24 +140,103 @@ nav ul ul li {
 }
 
 /*footer*/
-img {
-	max-width: 100%;
-	display: block;
-}
-
 .hero-image {
-position: relative;
-overflow: hidden;
-height: 400px;
+  height: 400px;
+  background-image: url(https://i.postimg.cc/Y9QGWjjy/corks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	width: 100%;
 }
 
-	.hero-image:after {
-  	position: absolute;
-    overflow: hidden;
-  	width: 100%;
-  	background-color: rgba(0,0,0,.5);
-  	top: 0;
-  	left: 0;
-  	display: block;
-		content: "";
+.hero-image__container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
+
+.hero-image__text {
+  z-index: 100;
+  padding: 1em;
+  color: white;
+
+}
+/* All this does is add a 50% black background on top of the image */
+.hero-image:after {
+  position: absolute;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+}
+.container {
+    margin: 0px auto;
+    text-align: center;
+}
+    .button-effect {
+      padding: 30px 0px; }
+
+      a {
+        margin-right: 17px;
+}
+svg {
+  z-index: 100;
+  padding: 1em;
+  color: white;
+
+}
+/* button styles !!!YOU NEED THEM
+!!!ALSO YOU NEED TO ADD FONTWESOME */
+
+.effect {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  color: #1ECD97;
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px 0px;
+  width: 190px;
+  height: 20px;
+  border: 2px solid #1ECD97;
+  overflow: hidden;
+}
+
+/* effect-1 styles */
+
+.effect.effect-1 {
+  transition: all 0.2s linear 0s;
+}
+  &:before {
+    content: "+";
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    transition: all 0.2s linear 0s;
+  }
+
+  &:hover {
+    text-indent: -20px;
+    background: #1ECD97;
+      color: white;
+}
+    &:before {
+      opacity: 1;
+      text-indent: 0px;
+    }
