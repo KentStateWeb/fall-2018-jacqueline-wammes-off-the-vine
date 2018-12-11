@@ -261,26 +261,26 @@ span {
 
 .event-list-item.gold .event-start,
 .event-list-item.gold .event-end {
-  background: #ffcc00 !important;
+  background: #B04A52 !important;
 }
 .event-list-item.navy .event-start,
 .event-list-item.navy .event-end {
-  background: #00205c !important;
+  background: #B88D72 !important;
 }
 .event-list-item.red .event-start,
 .event-list-item.red .event-end {
-  background: #b30000 !important;
+  background: #582439 !important;
 }
 .event-list-item.featured.gold {
-  border-left: 10px solid #ffcc00;
+  border-left: 10px solid #B04A52;
   max-width: 740px;
 }
 .event-list-item.featured.navy {
-  border-left: 10px solid #00205c;
+  border-left: 10px solid #B88D72;
   max-width: 740px;
 }
 .event-list-item.featured.red {
-  border-left: 10px solid #b30000;
+  border-left: 10px solid #582439;
   max-width: 740px;
 }
 @media screen and (max-width: 766px){
