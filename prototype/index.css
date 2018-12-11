@@ -82,7 +82,6 @@ h1.section-title span {
   padding: 0 0.5em;
 }
 h1.section-title:before {
-  border-top: 2px dashed #999;
   content: "";
   margin: 0 auto;
   /* this centers the line to the full width specified */
@@ -93,6 +92,11 @@ h1.section-title:before {
   bottom: 0;
   width: 95%;
   z-index: -1;
+}
+span {
+  color: white;
+  line-height:2em;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .event-list-item {
@@ -146,8 +150,7 @@ h1.section-title:before {
   margin-top: 0;
 }
 .event-info .event-date .event-end:before {
-  content: "thru";
-  font-size: 0.5em;
+
   position: absolute;
   top: 90px;
   left: 37px;
@@ -169,13 +172,9 @@ h1.section-title:before {
   font-size: 0.55em;
 }
 .event-info .event-description .event-header .event-location:before {
-  content: "\f041";
-  font-family: "Fontawesome";
   margin-right: 0.35em;
 }
 .event-info .event-description .event-header .event-time:before {
-  content: "\f017";
-  font-family: "Fontawesome";
   margin-right: 0.35em;
 }
 .event-info .event-description .event-excerpt {
@@ -187,8 +186,6 @@ h1.section-title:before {
   text-transform: uppercase;
 }
 .event-info .event-description .event-excerpt a.more:after {
-  content: "\f0a9";
-  font-family: "Fontawesome";
   margin-left: 0.25em;
 }
 
@@ -231,8 +228,6 @@ h1.section-title:before {
   margin-bottom: 0.5em;
 }
 .event-list-item.featured .event-description .event-header .event-title:before {
-  content: "\f005";
-  font-family: "Fontawesome";
   margin-right: 0.35em;
 }
 .event-list-item.featured .event-description .event-header .event-location,
@@ -240,13 +235,11 @@ h1.section-title:before {
   font-size: 0.5em;
 }
 .event-list-item.featured .event-description .event-header .event-location:before {
-  content: "\f041";
-  font-family: "Fontawesome";
+
   margin-right: 0.35em;
 }
 .event-list-item.featured .event-description .event-header .event-time:before {
-  content: "\f017";
-  font-family: "Fontawesome";
+
   margin-right: 0.35em;
 }
 .event-list-item.featured .event-description .event-excerpt {
@@ -297,6 +290,7 @@ h1.section-title:before {
   }
   h1{
     font-size: 1em;
+    margin-bottom: 1em;
   }
   p{
     font-size: 14px;
